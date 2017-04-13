@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<ul class="ul1">
+	<li><a href="#">糯米</a></li>
+	<li><a href="#">新闻</a></li>
+	<li><a href="#">hao123</a></li>
+	<li><a href="#">地图</a></li>
+	<li><a href="#">视频</a></li>
+	<li><a href="#">贴吧</a></li>
+	<li><a href="#">登录</a></li>
+	<li><a id="list1" href="#">设置</a>
+		<ul  id="list2">
+		<li>
+			搜索设置
+		</li>
+		<li>
+			搜索设置
+		</li>
+		<li>
+			搜索设置
+		</li>
+		<li>
+			搜索设置
+		</li>
+
+     	</ul>
+	</li>
+	<li>
+		<a id="list3" href="#">更多产品</a>
+
+		<div id="list4">
+			<p class="pl1">
+					<p>
+					<img src="img/img5.jpg">
+				
+				
+					音乐
+				</p>
+			</p>
+			<p class="pl1">
+				
+					<img src="img/img5.jpg">
+				
+				
+					音乐
+				
+			</p>
+			<p class="pl1">
+				
+					<img src="img/img5.jpg">
+				
+				
+					音乐
+				
+			</p>
+			<p class="pl1">
+				
+					<img src="img/img5.jpg">
+				
+				
+					音乐
+				
+			</p>
+
+		</div>
+	</li>
+</ul>
+
+	
+	<div class="box1">
+		<img src="img/img0.jpg">
+		<p><input type="text" name="">
+			<button class="btn">百度一下</button>
+
+		</p>
+	</div>
+	<div class="box2">
+		<p>
+			<img src="img/img3.jpg">
+		</p>
+		<p>
+			
+					<a id="last1" href="#">
+						把百度设为主页
+					</a>
+				
+					<a id="last2" href="#">
+						关于百度
+					</a>
+				
+					<a id="last3" href="#">
+						about baidu
+					</a>
+				
+					<a id="last4" href="#">
+						百度推广
+					</a>
+				
+		</p>
+		<p>
+			&copy;2017 Baidu 使用百度必读 意见反馈
+		</p>
+
+	</div>
+
+
+
+<script type="text/javascript">
+		var oList1=document.getElementById("list1");
+		var oList2=document.getElementById("list2");
+		var oList3=document.getElementById("list3");
+		var oList4=document.getElementById("list4");
+		oList1.onmouseover=function(){
+			oList2.style.display="block";
+		}
+		oList1.onmouseout=function(){
+			oList2.style.display="none";
+		}
+		oList3.style.color="white";
+		oList3.onmouseover=function(){
+			oList4.style.display="block";
+		}
+		oList3.onmouseout=function(){
+			oList4.style.display="none";
+		}
+		oList3.style.background="blue";
+
+		var oLastoview1=document.getElementById("last1");
+		var oLastoview2=document.getElementById("last2");
+		var oLastoview3=document.getElementById("last3");
+		var oLastoview4=document.getElementById("last4");
+
+		oLastoview1.onmouseover=function(){
+			oLastoview1.style.background="red"
+		}
+		oLastoview2.onmouseover=function(){
+			oLastoview2.style.background="red"
+		}
+		oLastoview3.onmouseover=function(){
+			oLastoview3.style.background="red"
+		}
+		oLastoview4.onmouseover=function(){
+			oLastoview4.style.background="red"
+		}
+		oLastoview1.onmouseout=function(){
+			oLastoview1.style.background=""
+		}
+		oLastoview2.onmouseout=function(){
+			oLastoview2.style.background=""
+		}
+		oLastoview3.onmouseout=function(){
+			oLastoview3.style.background=""
+		}
+		oLastoview4.onmouseout=function(){
+			oLastoview4.style.background=""
+		}
+
+
+</script>
+
+
+
+	
+</body>
+</html>

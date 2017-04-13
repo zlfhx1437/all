@@ -1,0 +1,73 @@
+	
+ul,li{list-style: none;}
+a{text-decoration: none;}
+*{padding:0;margin:0;}
+html,body{height:100%;}
+.ul1{
+	float:right;
+}
+.ul1>li{
+	float:left;height:40px;
+}
+.ul1>li a{
+	text-decoration: underline;
+	float:left;margin-right: 30px;color:#000;height:40px;line-height: 40px;
+	font-size: 16px;font-weight: 700;
+	}
+.ul1>li>ul{
+	border:1px solid #ccc;
+}
+.ul1>li>ul>li{
+	line-height: 30px;
+}
+#list4>.pl1{
+	padding:20px 0;
+	width:86px;background:#f9f9f9;
+	text-align: center;
+}
+#list4>.pl1>p{
+	text-align: center;
+	background:#f9f9f9;
+}
+#list4>.pl1 img{
+	
+}
+
+.box1{
+	position: absolute;top:154px;left:50%;
+	margin-left:-320px;width:645px;
+	height:152px;text-align: center;
+	margin-bottom:277px;
+}
+.box1 img{
+	margin-bottom: 35px;
+}
+.box1 input{
+	width:540px;height:35px;
+	border:0;border:1px solid #ccc;
+	float:left;background:url(../img/img2.jpg) no-repeat right center;
+}
+.box1 .btn{
+	width:100px;height:38px;border:0;
+	background:#3385ff;color:#fff;
+	font-size: 14px;float:left;
+}
+
+.box2{
+   	text-align: center;
+	width:100%;position: absolute;bottom:50px;
+}
+.box2 p{
+	text-align: center;
+}
+.box2 img{
+	margin-bottom:10px;
+}
+
+.box2 p a{
+	line-height: 30px;
+	color:#000;font-size: 14px;
+	padding:0 12px;text-decoration: underline;
+}
+
+

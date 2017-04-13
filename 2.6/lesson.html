@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" name="" id="value1" >+
+	<input type="text" name="" id="value2" >-
+	<input type="text" name="" id="value3">*
+	<input type="text" name="" id="value4">/
+	<input type="text" id="value5" name="">=
+	<input type="text" id="value6" name="">
+	<button id="but">
+		点我出结果
+	</button>
+
+	<script type="text/javascript">
+		
+		var oValue1= document.getElementById("value1");
+		var oValue2= document.getElementById("value2");
+		var oValue3= document.getElementById("value3");
+		var oValue4= document.getElementById("value4");
+		var oValue5= document.getElementById("value5");
+		var oValue6= document.getElementById("value6");
+		var btn=document.getElementById("but");
+			btn.onclick=function(){
+
+				oValue6.value=Number(oValue2.value)+Number(oValue1.value)-Number(oValue3.value)*Number(oValue4.value)/Number(oValue5.value);
+				 
+			}
+
+
+	</script>
+
+	
+</body>
+</html>
